@@ -40,7 +40,6 @@ user_input_list = user_input.split(',')
 
 user_input_list_numeric = [float(i) for i in user_input_list]
 user_input_transformed = [user_input_list_numeric]
-print(user_input_transformed)
 
 user_input_prediction = lr.predict(user_input_transformed)
 
